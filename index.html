@@ -1,0 +1,107 @@
+<head>
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:400,700" rel="stylesheet">
+<link href='style.css' rel='stylesheet' type='text/css'>
+<title>Compasso</title>
+<link rel="icon" type="x-icon" href="icon.png">
+<link rel="shortcut icon" type="x-icon" href="icon.png">
+<meta charset="utf-8">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-6511426299019766",
+    enable_page_level_ads: true
+  });
+</script>
+</head>
+<body>
+<h1>Teste do Brasil</h1>
+<hr>
+<button class="button" onclick="location.href='instructions.html';" style="font-size:36pt;">Clique aqui para começar!</button>
+
+<h2>O que é o teste do Brasil??</h2>
+    <p>O teste do Brasil é, em essência, um teste feito para descobrir em qual grupinho do Brasil você se encaixa. Atualmente, existem <b><u><span id="numOfQuestions"></span></u></b> questões nesse teste.</p>
+
+<h2>Quais são os valores?</h2>
+    <p style="font-size: 23px;">Existem quatro eixos independentes. Girondismo-Lusquismo, Angelismo-Tokiysmo, Carichauiso-Javemismo e Randomismo-Basedismo:</p>
+    <div class="explanation_bg">
+        <div class="spacer">
+            <div class="explanation_blurb_left">
+                <p class="value"><b style="color:#d32f2f;">GIRONDISMO</b></p>
+                <p class="blurb-text">
+                    Os Girondinos são abençoados pelo deboche. Geralmente mais à esquerda, eles podem ser encontrados geralmente na Utopia Ancap. Apesar de não serem tão populares, gostam de fazer barulho na política.
+                </p>
+            </div>
+            <div class="explanation_axis">
+                <p class="axis_name">GIRONDISMO-LUSQUISMO</p>
+                <img class="arrow" src="double_arrow.svg"></img>
+            </div>
+            <div class="explanation_blurb_right">
+                <p class="value"><b style="color:#00796b;">LUSQUISMO</b></p>
+                <p class="blurb-text">
+                    Com o uso da crase e da mesóclise, lusquistas estão sempre presentes no servidor e podem ser encontrados em todos os lugares: política, judiciário e staff. Eles seguem seu mestre e geralmente defendem a social-democracia.
+                </p>
+            </div>
+        </div>
+        <div class="spacer">
+            <div class="explanation_blurb_left">
+                <p class="value"><b style="color:#f57c00;">ANGELISMO</b></p>
+                <p class="blurb-text">
+                    Angelistas são uma espécie rara, mas em ascenção no servidor do Brasil. Atuam pela defesa do Estado de Israel e promovem discussões com Tokiystas no chat principal. Tome muito cuidado ao debater com um.
+                </p>
+            </div>
+            <div class="explanation_axis">
+                <p class="axis_name">ANGELISMO-TOKIYSMO</p>
+                <img class="arrow" src="double_arrow.svg"></img>
+            </div>
+            <div class="explanation_blurb_right">
+                <p class="value"><b style="color:#0288d1;">TOKIYSMO</b></p>
+                <p class="blurb-text">
+                    Tokiystas simpatizam pelo Tokiyo. Grande parte dos Tokiystas sequer compartilha das visões ideológicas de Tokiyo mas mesmo assim o apoiam em sua web-jornada política no servidor do Brasil.
+                </p>
+            </div>
+        </div>
+        <div class="spacer">
+            <div class="explanation_blurb_left">
+                <p class="value"><b style="color:#fbc02d;">CARICHAUISMO</b></p>
+                <p class="blurb-text">
+                    Carichauistas geralmente também pertencem ao grupo do Randomismo. Eles geralmente localizam-se mais à esquerda e amam perder eleições.
+                </p>
+            </div>
+            <div class="explanation_axis">
+                <p class="axis_name">CARICHAUISMO-JAVEMISMO</p>
+                <img class="arrow" src="double_arrow.svg"></img>
+            </div>
+            <div class="explanation_blurb_right">
+                <p class="value"><b style="color:#303f9f;">JAVEMISMO</b></p>
+                <p class="blurb-text">
+                    Javemistas são figuras muito versáteis e podem ser encontradas em várias partes do servidor. Apesar de não ter posição política definida, Javemistas transitam pelo quadro político, nos mais diferentes cargos.
+                </p>
+            </div>
+        </div>
+        <div class="spacer">
+            <div class="explanation_blurb_left">
+                <p class="value"><b style="color:#689f38;">RANDOMISMO</b></p>
+                <p class="blurb-text">
+                    Randomistas vão aparecer apenas para votar em eleições ou no Congresso Nacional. Podem, ocasionalmente, mandar mensagens aleatórias no chat principal. Geralmente eles também são Carichauistas.
+                </p>
+            </div>
+            <div class="explanation_axis">
+                <p class="axis_name">RANDOMISMO-BASEDISMO</p>
+                <img class="arrow" src="double_arrow.svg"></img>
+            </div>
+            <div class="explanation_blurb_right">
+                <p class="value"><b style="color:#7b1fa2;">BASEDISMO</b></p>
+                <p class="blurb-text">
+                    Basedistas falam no chat com frequência e participam ativamente da política e do debate do servidor. Por isso são based.
+                </p>
+            </div>
+        </div>
+        <br/>
+    </div>
+
+<!-- This is the script for the page itself -->
+<script type="application/javascript"src="questions.js"></script>
+<script type="text/javascript">
+    document.getElementById("numOfQuestions").innerHTML = questions.length;
+</script>
+</body>
